@@ -498,8 +498,8 @@ const MVN=['Tháng 1','Tháng 2','Tháng 3','Tháng 4','Tháng 5','Tháng 6','Th
 function getCanChiYear(y){return CAN[(y+6)%10]+' '+CHI[(y+8)%12]}
 function getCanChiDay(dd,mm,yy){var jd=jdFromDate(dd,mm,yy);return CAN[(jd+9)%10]+' '+CHI[(jd+1)%12]}
 
-const SH={'1/1':'Tết Dương Lịch 🎆','3/2':'Thành lập Đảng CSVN','14/2':'Lễ Tình Nhân 💕','8/3':'Quốc tế Phụ Nữ 🌹','26/3':'Thành lập Đoàn TNCS','30/4':'Giải phóng miền Nam 🎉','1/5':'Quốc tế Lao Động 🎉','19/5':'Sinh nhật Bác Hồ ⭐','1/6':'Quốc tế Thiếu Nhi 🧒','27/7':'Thương Binh Liệt Sĩ','19/8':'Cách mạng Tháng Tám','2/9':'Quốc Khánh 🇻🇳','20/10':'Phụ Nữ Việt Nam 🌹','20/11':'Nhà Giáo Việt Nam 📚','22/12':'Thành lập QĐND VN','24/12':'Đêm Giáng Sinh 🎄','25/12':'Lễ Giáng Sinh 🎄'};
-const LH={'1/1':'Tết Nguyên Đán 🧧','2/1':'Mùng 2 Tết 🧧','3/1':'Mùng 3 Tết 🧧','15/1':'Tết Nguyên Tiêu 🏮','3/3':'Tết Hàn Thực 🍡','10/3':'Giỗ Tổ Hùng Vương 🏛️','15/4':'Lễ Phật Đản ☸️','5/5':'Tết Đoan Ngọ 🐉','15/7':'Vu Lan Báo Hiếu ❤️','15/8':'Tết Trung Thu 🥮','9/9':'Tết Trùng Cửu','23/12':'Ông Táo chầu Trời 🔥','30/12':'Tất Niên 🎊','29/12':'Tất Niên 🎊'};
+const SH={'1/1':'Tết Dương Lịch 🎆','3/2':'Thành lập Đảng CSVN','7/2':'Sinh nhật Vợ 💕','14/2':'Lễ Tình Nhân 💕','8/3':'Quốc tế Phụ Nữ 🌹','26/3':'Thành lập Đoàn TNCS','30/4':'Giải phóng miền Nam 🎉','1/5':'Quốc tế Lao Động 🎉','19/5':'Sinh nhật Bác Hồ ⭐','1/6':'Quốc tế Thiếu Nhi 🧒','27/7':'Thương Binh Liệt Sĩ','19/8':'Cách mạng Tháng Tám','2/9':'Quốc Khánh 🇻🇳','3/9':'Kỷ niệm ngày yêu 💕','20/10':'Phụ Nữ Việt Nam 🌹','11/11':'Sinh nhật Chồng 💕','20/11':'Nhà Giáo Việt Nam 📚','22/12':'Thành lập QĐND VN','24/12':'Đêm Giáng Sinh 🎄','25/12':'Lễ Giáng Sinh 🎄'};
+const LH={'1/1':'Tết Nguyên Đán 🧧','2/1':'Mùng 2 Tết 🧧','3/1':'Mùng 3 Tết 🧧','9/1':'Giỗ cố ông','15/1':'Tết Nguyên Tiêu 🏮','3/3':'Tết Hàn Thực 🍡','10/3':'Giỗ Tổ Hùng Vương 🏛️','15/4':'Lễ Phật Đản ☸️','30/4':'Giỗ cố bà','5/5':'Tết Đoan Ngọ 🐉','5/6':'Giỗ ông nội','15/7':'Vu Lan Báo Hiếu ❤️','15/8':'Tết Trung Thu 🥮','9/9':'Tết Trùng Cửu','17/11':'Giỗ bà nội','24/11':'Giỗ chị cả','23/12':'Ông Táo chầu Trời 🔥','30/12':'Tất Niên 🎊','29/12':'Tất Niên 🎊'};
 
 // ===== STATE =====
 const today=new Date();
